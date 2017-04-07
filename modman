@@ -1,6 +1,6 @@
 app/code/community/Livechat/Livechat/   app/code/community/Livechat/Livechat/
-app/design/adminhtml/default/default/layout/livechat.xml app/design/adminhtml/default/default/layout/livechat.xml
-app/design/adminhtml/default/default/template/livechat app/design/adminhtml/default/default/template/livechat
+app/design/adminhtml/default/default/layout/livechat.xml app/design/adminhtml/base/default/layout/livechat.xml
+app/design/adminhtml/default/default/template/livechat app/design/adminhtml/base/default/template/livechat
 app/design/frontend/base/default/layout/livechat.xml app/design/frontend/base/default/layout/livechat.xml
 app/design/frontend/base/default/template/livechat app/design/frontend/base/default/template/livechat
 app/design/frontend/default/default/layout/livechat.xml app/design/frontend/default/default/layout/livechat.xml
