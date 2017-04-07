@@ -1,0 +1,9 @@
+{
+  "name": "livechat/livechat",
+  "type": "magento-module",
+  "authors": [
+    {
+      "name": "LivechatInc"
+    }
+  ]
+}
