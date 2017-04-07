@@ -1,3 +1,3 @@
 # livechat-livechat
 
-Mirror of Blueknow_Bluecart Magento extension.
+Mirror of Livechat_Livechat Magento extension.
