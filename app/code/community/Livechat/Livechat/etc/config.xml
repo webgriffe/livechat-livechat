@@ -100,12 +100,8 @@
         <livechat>
             <general>
 				<license></license>
+				<login></login>
             </general>
-			<advanced>
-				<language>en</language>
-				<skill>0</skill>
-				<params></params>
-			</advanced>
         </livechat>
     </default>
 </config>
