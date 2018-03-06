@@ -23,15 +23,15 @@
             </updates>
         </layout>
     </frontend>
-    <admin>
+	<admin>
         <routers>
-			<livechat>
-				<use>admin</use>
+			<adminhtml>
 				<args>
-					<module>Livechat_Livechat</module>
-					<frontName>livechat</frontName>
+					<modules>
+						<livechat before="Mage_Adminhtml">Livechat_Livechat_Adminhtml</livechat>
+					</modules>
 				</args>
-			</livechat>
+			</adminhtml>
         </routers>
     </admin>
 	
@@ -40,7 +40,7 @@
 			<livechat module="livechat">
 				<title>LiveChat</title>
 				<sort_order>75</sort_order>
-				<action>livechat/adminhtml_livechat</action>
+				<action>adminhtml/livechat/index</action>
 			</livechat>
 		</menu>
 		<acl>
