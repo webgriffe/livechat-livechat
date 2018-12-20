@@ -5,5 +5,8 @@
     {
       "name": "LivechatInc"
     }
-  ]
+  ],
+  "extra": {
+    "package-xml": "package.xml"
+  }
 }

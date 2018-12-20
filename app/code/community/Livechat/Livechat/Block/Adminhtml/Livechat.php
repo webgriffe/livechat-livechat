@@ -7,8 +7,8 @@ class Livechat_Livechat_Block_Adminhtml_Livechat extends Mage_Adminhtml_Block_Wi
     $this->_controller = 'adminhtml_livechat';
     $this->_blockGroup = 'livechat';
     $this->_headerText = Mage::helper('livechat')->__('LiveChat Configuration');
-		
+        
     parent::__construct();
-	$this->_removeButton('add');
+    $this->_removeButton('add');
   }
 }
