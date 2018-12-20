@@ -23,16 +23,8 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
 		})();
 		}
-		var LC_API = LC_API || {};
-	<?php if (Mage::getStoreConfig('livechat/general/sounds') === 'Yes')
-		{
-			?>
-			LC_API.on_after_load = function()
-			{
-				LC_API.disable_sounds();
-			};
-	<?php } ?>
-		
+
+	var LC_API = LC_API || {};
 	<?php if (Mage::getStoreConfig('livechat/general/cart') === 'Yes') { ?>	
 	if (!isMobile) {
 		function getCart() {
